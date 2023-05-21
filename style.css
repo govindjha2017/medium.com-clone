@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+     
+    align-items: center;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+    height: 75px;
+    width: 80vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+}
+.logo img{
+    width: 170px;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw ;
+}
+.nav_links a:link{
+    text-decoration: none;
+    color: black;
+}
+#get-start{
+    background-color: black;
+    color: white;
+    border-radius: 70px;
+    padding: 8px;
+}
+
+.content{
+    background-color: #FFC017;
+    height: 525px;
+    border-bottom: 1px solid black;
+     
+}
+
+.span{
+   /* margin-top: 68px;*/
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    /* justify-content: center;
+     align-self: center;*/
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 70%;
+    padding-top: 93px;
+    padding-bottom: 92px;
+}
+.span-1{
+    font-size: 6rem;
+    margin-top: 50px;
+}
+.span-2{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    width: 40%;
+    color: #292929;
+}
+.span-3{
+    font-size: 1.5rem;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    width: 225px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.trending{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between ;
+    border-bottom: 1px solid  #292929;
+    height: 300px;
+}
+
+.trending1{
+    margin-top: 10px;
+    width: 350px;
+    height: auto;
+    /*background-color: aqua;*/
+}
+.date{
+    
+}
+
+
+.post{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: 1000px;
+     
+}
+.data{
+    grid-column: 1/8;
+}
+.discover{
+    grid-column: 9/13;
+    border-bottom: 100px solid #292929;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+     margin-top:20px ;
+     margin-bottom:20px ;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    background-color: #F2F2F2;
+    width: auto;
+    margin: 2px;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+}
+.link a:hover{
+    background-color: #292929;
+}
+
+#mt{
+    color: green;
+    border-bottom: 100px solid #292929;
+}
